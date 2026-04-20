@@ -13,7 +13,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -30,3 +30,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Logs ###
+*.log
+logs/
+log/
+
+### H2 database ###
+data/
+*.mv.db
+*.trace.db
+*.h2.db
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Env / local config ###
+.env
+.env.*
